@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Jajanan",
+    "iconUrl": "https://tinyurl.com/2ma5e8df"
+  },
+  {
+    "id": 2,
+    "name": "Aneka nasi",
+    "iconUrl": "https://tinyurl.com/ms7j9yf8"
+  },
+  {
+    "id": 3,
+    "name": "Ayam dan Bebek",
+    "iconUrl": "https://tinyurl.com/mrxzdjsk"
+  },
+  {
+    "id": 4,
+    "name": "Cepat saji",
+    "iconUrl": "https://tinyurl.com/4smkbaz5"
+  },
+  {
+    "id": 5,
+    "name": "Bakmi",
+    "iconUrl": "https://tinyurl.com/5ajfmv8h"
+  },
+  {
+    "id": 6,
+    "name": "Soto",
+    "iconUrl": "https://tinyurl.com/wv2kd4sp"
+  },
+  {
+    "id": 7,
+    "name": "Sate",
+    "iconUrl": "https://tinyurl.com/mw58pwd2"
+  },
+  {
+    "id": 8,
+    "name": "Pasta",
+    "iconUrl": "https://tinyurl.com/brfzutwu"
+  },
+  {
+    "id": 9,
+    "name": "Seafood",
+    "iconUrl": "https://tinyurl.com/svy8uyjn"
+  },
+  {
+    "id": 10,
+    "name": "Minuman",
+    "iconUrl": "https://tinyurl.com/msukf9cw"
+  }
+]

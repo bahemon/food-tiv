@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- DaisyUi CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+  <style>
+    body {
+      font-family: 'Poppins';
+    }
+  </style>
+</head>
+
+<body style="margin-bottom: 1000px;">
+  <!-- Navbar -->
+  <div class="navbar bg-base-100">
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl">Logo</a>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>Categories</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Home -->
+  <div class="w-full bg-slate-300 flex justify-center">
+    <!-- Headers Image -->
+    <div class="carousel w-full rounded-3xl mx-2">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="./assets/carousel-1.jpg" class="w-full h-96 object-cover" />
+      </div>
+    </div>
+
+    <div class="flex flex-col justify-center">
+      <p class="text-slate-800">LOGO</p>
+      <p class="text-slate-800 font-bold">Food Tiv, your hungry partner.</p>
+      <p class="text-slate-800">See food reviews from thousand Author's</p>
+    </div>
+  </div>
+
+  <div class="my-10 text-center">
+    <h1 class="font-bold text-2xl m-3">What's good to eat?</h1>
+    <p class="font-base text-xl">Discover our collection of food reviews, and enjoy!</p>
+  </div>
+
+  <!-- Card Food Review -->
+  <div class="bg-slate-700 flex flex-wrap gap-10 justify-center items-center py-12">
+    <div class="card w-64 h-96 bg-base-100 border-solid border-2">
+      <div class="m-2">
+        <figure><img class="rounded-md" src="./assets/carousel-2.jpg" alt="Shoes" /></figure>
+        <div class="my-5 flex flex-col">
+          <h2 class="font-bold">Warung sate cak jamil </h2>
+          <p>Sate, Aneka nasi</p>
+          <p>18.00 - 12.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card w-64 h-96 bg-base-100 border-solid border-2">
+      <div class="m-2">
+        <figure><img class="rounded-md" src="./assets/carousel-2.jpg" alt="Shoes" /></figure>
+        <div class="my-5 flex flex-col">
+          <h2 class="font-bold">Warung sate cak jamil </h2>
+          <p>Sate, Aneka nasi</p>
+          <p>18.00 - 12.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card w-64 h-96 bg-base-100 border-solid border-2">
+      <div class="m-2">
+        <figure><img class="rounded-md" src="./assets/carousel-2.jpg" alt="Shoes" /></figure>
+        <div class="my-5 flex flex-col">
+          <h2 class="font-bold">Warung sate cak jamil </h2>
+          <p>Sate, Aneka nasi</p>
+          <p>18.00 - 12.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card w-64 h-96 bg-base-100 border-solid border-2">
+      <div class="m-2">
+        <figure><img class="rounded-md" src="./assets/carousel-2.jpg" alt="Shoes" /></figure>
+        <div class="my-5 flex flex-col">
+          <h2 class="font-bold">Warung sate cak jamil </h2>
+          <p>Sate, Aneka nasi</p>
+          <p>18.00 - 12.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card w-64 h-96 bg-base-100 border-solid border-2">
+      <div class="m-2">
+        <figure><img class="rounded-md" src="./assets/carousel-2.jpg" alt="Shoes" /></figure>
+        <div class="my-5 flex flex-col">
+          <h2 class="font-bold">Warung sate cak jamil </h2>
+          <p>Sate, Aneka nasi</p>
+          <p>18.00 - 12.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card w-64 h-96 bg-base-100 border-solid border-2">
+      <div class="m-2">
+        <figure><img class="rounded-md" src="./assets/carousel-2.jpg" alt="Shoes" /></figure>
+        <div class="my-5 flex flex-col">
+          <h2 class="font-bold">Warung sate cak jamil </h2>
+          <p>Sate, Aneka nasi</p>
+          <p>18.00 - 12.00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-10 text-center">
+    <h1 class="font-bold text-2xl m-3">Looking something to eat? Checkout this</h1>
+  </div>
+
+  <!-- Card Category -->
+  <div class="bg-slate-600 flex flex-wrap justify-center items-center gap-10 py-12">
+    <div class="card w-52 bg-base-100 shadow-xl p-10">
+      <figure><img class="w-24" src="./assets/icon-categories/sate.png" alt="Shoes" /></figure>
+      <div>
+        <h2 class="font-bold text-lg text-center">Sate</h2>
+      </div>
+    </div>
+
+    <div class="card w-52 bg-base-100 shadow-xl p-10">
+      <figure><img class="w-24" src="./assets/icon-categories/sate.png" alt="Shoes" /></figure>
+      <div>
+        <h2 class="font-bold text-lg text-center">Sate</h2>
+      </div>
+    </div>
+
+    <div class="card w-52 bg-base-100 shadow-xl p-10">
+      <figure><img class="w-24" src="./assets/icon-categories/sate.png" alt="Shoes" /></figure>
+      <div>
+        <h2 class="font-bold text-lg text-center">Sate</h2>
+      </div>
+    </div>
+
+    <div class="card w-52 bg-base-100 shadow-xl p-10">
+      <figure><img class="w-24" src="./assets/icon-categories/sate.png" alt="Shoes" /></figure>
+      <div>
+        <h2 class="font-bold text-lg text-center">Sate</h2>
+      </div>
+    </div>
+
+    <div class="card w-52 bg-base-100 shadow-xl p-10">
+      <figure><img class="w-24" src="./assets/icon-categories/sate.png" alt="Shoes" /></figure>
+      <div>
+        <h2 class="font-bold text-lg text-center">Sate</h2>
+      </div>
+    </div>
+
+    <div class="card w-52 bg-base-100 shadow-xl p-10">
+      <figure><img class="w-24" src="./assets/icon-categories/sate.png" alt="Shoes" /></figure>
+      <div>
+        <h2 class="font-bold text-lg text-center">Sate</h2>
+      </div>
+    </div>
+
+    <div class="card w-52 bg-base-100 shadow-xl p-10">
+      <figure><img class="w-24" src="./assets/icon-categories/sate.png" alt="Shoes" /></figure>
+      <div>
+        <h2 class="font-bold text-lg text-center">Sate</h2>
+      </div>
+    </div>
+
+    <div class="card w-52 bg-base-100 shadow-xl p-10">
+      <figure><img class="w-24" src="./assets/icon-categories/sate.png" alt="Shoes" /></figure>
+      <div>
+        <h2 class="font-bold text-lg text-center">Sate</h2>
+      </div>
+    </div>
+
+    <div class="card w-52 bg-base-100 shadow-xl p-10">
+      <figure><img class="w-24" src="./assets/icon-categories/sate.png" alt="Shoes" /></figure>
+      <div>
+        <h2 class="font-bold text-lg text-center">Sate</h2>
+      </div>
+    </div>
+
+    <div class="card w-52 bg-base-100 shadow-xl p-10">
+      <figure><img class="w-24" src="./assets/icon-categories/sate.png" alt="Shoes" /></figure>
+      <div>
+        <h2 class="font-bold text-lg text-center">Sate</h2>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="my-10 text-center">
+    <h1 class="font-bold text-2xl m-3">Join with others premium Food Tivers now!</h1>
+  </div>
+
+  <!-- Premium Section -->
+  <div class="mx-16 bg-slate-200 text-justify p-6">
+    <h1 class="font-bold text-3xl">Why so important?</h1>
+
+    <div class="my-5">
+      <ul class="list-disc">
+        <li class="text-2xl">Unlimited access</li>
+        <li class="text-2xl">Add menu on food review thread</li>
+      </ul>
+    </div>
+
+    <button class="btn">Click here to join</button>
+  </div>
+
+  <!-- Food Review Page -->
+  <div class="bg-slate-300 flex flex-col justify-center items-center">
+    <div class="carousel w-full rounded-3xl mx-2">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="./assets/carousel-1.jpg" class="w-full h-96 object-cover" />
+      </div>
+    </div>
+
+    <div class="flex justify-between w-full text-left m-10">
+      <div class="flex flex-col">
+        <h1 class="font-bold">Warung Sate Cak Jamil</h1>
+        <h3>Jl. Imam bonjol No. 100, Bogor Barat</h3>
+        <h3>10.00 - 20.00</h3>
+      </div>
+      <div class="flex gap-10">
+        <button class="btn">like</button>
+        <button class="btn">dislike</button>
+      </div>
+    </div>
+
+    <!-- Food Review Overview -->
+    <div class="flex m-5 justify-center">
+      <!-- Main Content -->
+      <div class="flex flex-col mr-10">
+        <div class="mb-5">
+          <h1 class="text-lg font-bold">About This Place</h1>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet unde, voluptatem facere
+            architecto iure quos
+            reiciendis? Rerum maxime ratione, soluta explicabo in nostrum molestias obcaecati reprehenderit vero laborum
+            nulla impedit!</p>
+        </div>
+
+        <div class="mb-5">
+          <h1 class="text-lg font-bold">Cuisines</h1>
+          <p>Sate</p>
+          <p>Nasi</p>
+          <p>Minuman</p>
+        </div>
+
+        <div class="mb-5">
+          <h1 class="text-lg font-bold">Average Cost</h1>
+          <p>1000000 for two people (approx)</p>
+        </div>
+
+        <div class="mb-5">
+          <h1 class="text-lg font-bold">Call</h1>
+          <p>084798378321</p>
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-center items-center">
+        <img class="h-72 w-full object-cover" src="https://tinyurl.com/mrstat3n" alt="">
+        <div class="w-full">
+          <p class="mb-5 text-left">Thread Author's : Jamal</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Food Review Menus  -->
+    <div class="carousel carousel-center max-w-6xl  p-4 space-x-4 bg-slate-200 rounded-box">
+      <div class="carousel-item flex flex-col">
+        <div>
+          <img class="w-64 h-80 object-cover rounded-box" src="./assets/carousel-1.jpg" alt="Burger" />
+        </div>
+        <div class="mt-2">
+          <p class="text-sm font-bold">Sate Ayam</p>
+          <p class="text-xs text-gray-600">Sate</p>
+          <p class="text-sm">Rp. 25.000,00</p>
+          <div class="text-sm">
+            <a href="#">like:1000</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item flex flex-col">
+        <div>
+          <img class="w-64 h-80 object-cover rounded-box" src="./assets/carousel-1.jpg" alt="Burger" />
+        </div>
+        <div class="mt-2">
+          <p class="text-sm font-bold">Sate Ayam</p>
+          <p class="text-xs text-gray-600">Sate</p>
+          <p class="text-sm">Rp. 25.000,00</p>
+          <div class="text-sm">
+            like: 1000
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item flex flex-col">
+        <div>
+          <img class="w-64 h-80 object-cover rounded-box" src="./assets/carousel-1.jpg" alt="Burger" />
+        </div>
+        <div class="mt-2">
+          <p class="text-sm font-bold">Sate Ayam</p>
+          <p class="text-xs text-gray-600">Sate</p>
+          <p class="text-sm">Rp. 25.000,00</p>
+          <div class="text-sm">
+            like: 1000
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item flex flex-col">
+        <div>
+          <img class="w-64 h-80 object-cover rounded-box" src="./assets/carousel-1.jpg" alt="Burger" />
+        </div>
+        <div class="mt-2">
+          <p class="text-sm font-bold">Sate Ayam</p>
+          <p class="text-xs text-gray-600">Sate</p>
+          <p class="text-sm">Rp. 25.000,00</p>
+          <div class="text-sm">
+            like: 1000
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item flex flex-col">
+        <div>
+          <img class="w-64 h-80 object-cover rounded-box" src="./assets/carousel-1.jpg" alt="Burger" />
+        </div>
+        <div class="mt-2">
+          <p class="text-sm font-bold">Sate Ayam</p>
+          <p class="text-xs text-gray-600">Sate</p>
+          <p class="text-sm">Rp. 25.000,00</p>
+          <div class="text-sm">
+            like: 1000
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+  <!-- Login Page -->
+  <div class="flex justify-center items-center w-full p-20">
+    <div class="flex flex-col gap-y-5 w-96 border-solid border-2 p-10">
+      <h1 class="font-bold text-3xl text-center">Login</h1>
+      <div class="flex flex-col">
+        <form class="w-full">
+          <label class="label">
+            <span class="label-text">Email</span>
+          </label>
+          <input type="text" placeholder="tejo@mail.com" class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <label class="label">
+          <span class="label-text">Password</span>
+        </label>
+        <input type="password" placeholder="*****" class="input input-bordered w-full" />
+      </div>
+
+      <button class="btn">Login</button>
+      </form>
+
+      <!-- Google Login -->
+      <button class="btn">Google Login</button>
+
+      <!-- Register Link -->
+      <p>
+        New to FoodTiv? <span class="text-green-600"><a href="#">Create account</a></span>
+      </p>
+    </div>
+  </div>
+
+  <!-- Register Page -->
+  <div class="flex justify-center items-center w-full p-20">
+    <div class="flex flex-col gap-y-5 w-96 border-solid border-2 p-10">
+      <h1 class="font-bold text-3xl text-center">Register</h1>
+
+      <div class="flex flex-col">
+        <form class="w-full">
+          <label class="label">
+            <span class="label-text">Username</span>
+          </label>
+          <input type="text" placeholder="jamalTheCamel" class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <form class="w-full">
+          <label class="label">
+            <span class="label-text">Email</span>
+          </label>
+          <input type="text" placeholder="jamal@mail.com" class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <label class="label">
+          <span class="label-text">Password</span>
+        </label>
+        <input type="password" placeholder="*****" class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <form class="w-full">
+          <label class="label">
+            <span class="label-text">Phone Number</span>
+          </label>
+          <input type="integer" placeholder="0858XXXXXXXX" class="input input-bordered w-full" />
+      </div>
+
+      <button class="btn">Register</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Add Food review -->
+  <div>
+    <div class="flex flex-col gap-y-5 w-96 border-solid border-2 p-10">
+      <h1 class="font-bold text-3xl text-center">Post your review</h1>
+
+      <div class="flex flex-col">
+        <form class="w-full">
+          <label class="label">
+            <span class="label-text">Restaurant Name</span>
+          </label>
+          <input type="text" placeholder="Warung sate bang jago" class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <label class="label">
+          <span class="label-text">Address</span>
+        </label>
+        <input type="text" placeholder="Jl. Pondok Indah Raya No. 40, Jakarta Selatan"
+          class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <label class="label">
+          <span class="label-text">Operational Hours</span>
+        </label>
+        <input type="text" placeholder="10:00 - 18:00" class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <label class="label">
+          <span class="label-text">Phone Address</span>
+        </label>
+        <input type="integer" placeholder="08589831023" class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <label class="label">
+          <span class="label-text">Overview</span>
+        </label>
+        <textarea class="textarea textarea-bordered" placeholder=". . . . ."></textarea>
+      </div>
+
+      <button class="btn">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Add Menus -->
+  <div>
+    <div class="flex flex-col gap-y-5 w-96 border-solid border-2 p-10">
+      <h1 class="font-bold text-3xl text-center">Post your favorite menu</h1>
+
+      <div class="flex flex-col">
+        <form class="w-full">
+          <label class="label">
+            <span class="label-text">Menu Name</span>
+          </label>
+          <input type="text" placeholder="Sate ayam" class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <label class="label">
+          <span class="label-text">Price</span>
+        </label>
+        <input type="number" placeholder="20000" class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <label class="label">
+          <span class="label-text">Image Url</span>
+        </label>
+        <input type="text" placeholder="Multer" class="input input-bordered w-full" />
+      </div>
+
+      <div class="flex flex-col">
+        <label class="label">
+          <span class="label-text">Image Url</span>
+        </label>
+        <select class="select select-bordered w-full max-w-xs">
+          <option disabled selected>Who shot first?</option>
+          <option>Han Solo</option>
+          <option>Greedo</option>
+        </select>
+      </div>
+
+      <button class="btn">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

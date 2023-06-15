@@ -1,0 +1,20 @@
+[
+  {
+    "username": "devMaman",
+    "email": "devMaman@mail.com",
+    "password": "12345",
+    "phoneNumber": "085885939426"
+  },
+  {
+    "username": "devJamal",
+    "email": "devJamal@mail.com",
+    "password": "12345",
+    "phoneNumber": "085885939426"
+  },
+  {
+    "username": "devTejo",
+    "email": "devTejo@mail.com",
+    "password": "12345",
+    "phoneNumber": "085885939426"
+  }
+]

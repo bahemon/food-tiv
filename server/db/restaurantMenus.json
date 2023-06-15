@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Sate Ayam",
+    "imageUrl": "https://tinyurl.com/2p9y4z6c",
+    "price": 25000,
+    "category_id": 7,
+    "foodReview_id": 1,
+    "user_id": 1
+  },
+  {
+    "name": "Sate Sapi",
+    "imageUrl": "https://tinyurl.com/mrpypjj9",
+    "price": 30000,
+    "category_id": 7,
+    "foodReview_id": 1,
+    "user_id": 1
+  },
+  {
+    "name": "Sate Biawak",
+    "imageUrl": "https://tinyurl.com/49e2kp6c",
+    "price": 20000,
+    "category_id": 7,
+    "foodReview_id": 1,
+    "user_id": 1
+  },
+  {
+    "name": "Soto Ayam",
+    "price": 15000,
+    "imageUrl": "https://tinyurl.com/3d6prd6t",
+    "category_id": 6,
+    "foodReview_id": 2,
+    "user_id": 2
+  },
+  {
+    "name": "Nasi Goreng Bawang",
+    "imageUrl": "https://tinyurl.com/2mw4jbxb",
+    "price": 10000,
+    "category_id": 2,
+    "foodReview_id": 2,
+    "user_id": 2
+  },
+  {
+    "name": "Bakmi Jawa",
+    "price": 25000,
+    "imageUrl": "https://tinyurl.com/44r5s2dt",
+    "category_id": 5,
+    "foodReview_id": 3,
+    "user_id": 3
+  },
+  {
+    "name": "Iced Latte",
+    "price": 25000,
+    "imageUrl": "https://tinyurl.com/2ekw8c6m",
+    "category_id": 10,
+    "foodReview_id": 3,
+    "user_id": 3
+  }
+]

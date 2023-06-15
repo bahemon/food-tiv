@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Pondok sate cak jamil",
+    "address": "Jl. Imam Bonjol No.34 Bogor Barat",
+    "operationalHours": "10:30-22:00",
+    "phoneAddress": "085885939426",
+    "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "latitude": -6.5676496731202425,
+    "longitude": 106.78184011529596,
+    "user_id": 1
+  },
+  {
+    "name": "Sego sambel cak Uut",
+    "address": "Jl. Imam Bonjol No.34 Malang",
+    "operationalHours": "10:30-22:00",
+    "phoneAddress": "085885939426",
+    "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "latitude": -7.978663144887617,
+    "longitude": 112.61136231190717,
+    "user_id": 1
+  },
+  {
+    "name": "Resto bang Jago",
+    "address": "Jl. Imam Bonjol No.34 Bogor Barat",
+    "operationalHours": "10:30-22:00",
+    "phoneAddress": "085885939426",
+    "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "latitude": -8.03311573607629,
+    "longitude": 112.60921755214815,
+    "user_id": 2
+  },
+  {
+    "name": "Warung nasi Bu Samsudin",
+    "address": "Jl. Imam Bonjol No.34 Bogor Barat",
+    "operationalHours": "10:30-22:00",
+    "phoneAddress": "085885939426",
+    "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "latitude": -8.07400154415315,
+    "longitude": 112.02530173252568,
+    "user_id": 3
+  }
+]
