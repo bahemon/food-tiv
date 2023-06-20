@@ -1,10 +1,12 @@
-{
+require('dotenv').config()
+
+const config = {
   "development": {
-    "username": "postgres",
-    "password": "postgres",
-    "database": "individual-project-db",
+    "username": process.env.DB_USERNAME,
+    "password": process.env.DB_PASSWORD,
+    "database": process.env.DB_NAME,
     "host": "127.0.0.1",
-    "dialect": "postgres",
+    "dialect": 'postgres',
     "logging": false
   },
   "test": {
@@ -18,3 +20,5 @@
     "use_env_variable": "DATABASE_URL"
   }
 }
+
+module.exports = config
