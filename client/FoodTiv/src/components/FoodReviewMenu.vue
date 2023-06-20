@@ -1,9 +1,6 @@
 <script>
 export default {
-  props: ['menu'],
-  created() {
-    // console.log(this.menu, "<><><><><><><>")
-  }
+  props: ['menu']
 }
 </script>
 

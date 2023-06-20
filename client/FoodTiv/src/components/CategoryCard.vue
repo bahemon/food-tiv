@@ -1,9 +1,6 @@
 <script>
 export default {
-  props: ['category'],
-  created() {
-    console.log(this.category)
-  }
+  props: ['category']
 }
 </script>
 

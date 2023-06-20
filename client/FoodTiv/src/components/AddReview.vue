@@ -20,7 +20,6 @@ export default {
   methods: {
     ...mapActions(useIndexStore, ['getUserProfile', 'addFoodReview']),
     submitForm() {
-      // console.log(this.formData, "<<><><")
       this.addFoodReview(this.formData)
     }
   },

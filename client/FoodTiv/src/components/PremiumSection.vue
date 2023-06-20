@@ -5,7 +5,6 @@ export default {
   methods: {
     ...mapActions(useIndexStore, ['upgradeToPremium', 'getUserProfile']),
     async toPremiumButton() {
-      // console.log(this.midtransToken, "<<<<<<<<<<<<<<")
       this.upgradeToPremium()
     }
   },
@@ -13,9 +12,7 @@ export default {
     ...mapState(useIndexStore, ['currentUser'])
   },
   async created() {
-    // console.log(this.midtransToken)
     await this.getUserProfile()
-    // console.log(this.currentUser, "<<<<<<<<< testttttt")
   }
 }
 </script>
