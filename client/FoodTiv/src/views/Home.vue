@@ -22,7 +22,6 @@ export default {
   async created() {
     if (localStorage.access_token) {
       await this.getUserProfile()
-      // console.log(this.currentUser, '<<<<<<')
     }
     await this.getFoodReviewData()
     await this.getCategories()

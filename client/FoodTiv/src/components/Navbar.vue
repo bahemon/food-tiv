@@ -28,7 +28,6 @@ export default {
 <template>
   <div class="navbar bg-base-100 fixed top-0 left-0 right-0 z-50">
     <div class="flex-1">
-      <a class="btn btn-ghost normal-case text-xl">Logo</a>
       <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
           <router-link to="/">

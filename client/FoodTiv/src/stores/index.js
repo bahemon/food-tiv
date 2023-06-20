@@ -4,7 +4,7 @@ import Swal from 'sweetalert2/dist/sweetalert2'
 
 export const useIndexStore = defineStore('index', {
   state: () => ({
-    BASE_URL: 'http:localhost:3000',
+    BASE_URL: 'http://localhost:3000',
     isLogin: false,
     currentUser: {},
     foodReviews: [],
@@ -23,7 +23,7 @@ export const useIndexStore = defineStore('index', {
   actions: {
     async register(registerData) {
       try {
-        const { data } = await axios({
+        await axios({
           method: 'POST',
           url: `${this.BASE_URL}/register`,
           data: {
@@ -33,7 +33,6 @@ export const useIndexStore = defineStore('index', {
             phoneNumber: registerData.phoneNumber
           }
         })
-        // console.log(data, "<<<<<< register")
         Swal.fire({
           position: 'top-end',
           icon: 'success',
@@ -140,7 +139,7 @@ export const useIndexStore = defineStore('index', {
       try {
         const { data } = await axios({
           method: 'GET',
-          url: `http://localhost:3000/foodReviews`
+          url: `${this.BASE_URL}/foodReviews`
         })
         this.foodReviews = data
       } catch (err) {
@@ -164,7 +163,7 @@ export const useIndexStore = defineStore('index', {
       try {
         const { data } = await axios({
           method: 'GET',
-          url: `http://localhost:3000/categories`
+          url: `${this.BASE_URL}/categories`
         })
         this.categories = data
       } catch (err) {
@@ -177,7 +176,6 @@ export const useIndexStore = defineStore('index', {
           method: 'GET',
           url: `${this.BASE_URL}/restaurantMenus/${foodReviewId}`
         })
-        // console.log(data, "<<<<<<< restaurant menu")
         this.restaurantMenuToShow = data
       } catch (err) {
         console.log(err)
@@ -201,7 +199,6 @@ export const useIndexStore = defineStore('index', {
           showConfirmButton: false,
           timer: 1500
         })
-        // console.log(data, "<<<<<<<< yang baru ditambah")
 
         this.router.push(`/foodReviews/${data.id}`)
       } catch (err) {
@@ -264,8 +261,6 @@ export const useIndexStore = defineStore('index', {
 
           window.snap.pay(data.token, {
             onSuccess: async function (result) {
-              /* You may add your own implementation here */
-              // alert("payment success!"); console.log(result);
               Swal.fire({
                 position: 'top-end',
                 icon: 'success',
@@ -276,7 +271,6 @@ export const useIndexStore = defineStore('index', {
               callback()
             },
             onPending: function (result) {
-              /* You may add your own implementation here */
               Swal.fire(
                 'The Internet?',
                 'That thing is still around?',
@@ -284,7 +278,6 @@ export const useIndexStore = defineStore('index', {
               )
             },
             onError: function (result) {
-              /* You may add your own implementation here */
               Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
@@ -292,7 +285,6 @@ export const useIndexStore = defineStore('index', {
               })
             },
             onClose: function () {
-              /* You may add your own implementation here */
               Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
@@ -319,7 +311,5 @@ export const useIndexStore = defineStore('index', {
         console.log(err)
       }
     },
-
   },
-
 })
